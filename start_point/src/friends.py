@@ -15,4 +15,5 @@ def add_friend(person, friend):
     person["friends"].append(friend)
 
 
-        
+def remove_friend(person,friend):
+    person["friends"].remove(friend)
