@@ -27,4 +27,14 @@ def total_money(money):
 
     return total_money
         
+def lend_money(lender, lendee, amount):
+    lender["monies"] -= amount
+    lendee["monies"] += amount
+
+
+    
+    
+    
+
+    
     
