@@ -17,3 +17,14 @@ def add_friend(person, friend):
 
 def remove_friend(person,friend):
     person["friends"].remove(friend)
+
+def total_money(money):
+    total_money = 0
+
+    for cash in money:
+        total_money += cash["monies"]
+        cash["monies"] = 0
+
+    return total_money
+        
+    
